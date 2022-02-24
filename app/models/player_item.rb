@@ -1,2 +1,0 @@
-class PlayerItem < ApplicationRecord
-end

@@ -4,6 +4,7 @@ class CreateZombies < ActiveRecord::Migration[6.1]
       t.integer :health
       t.integer :damage
       t.integer :money
+      t.reference :country, index: true, foreign_key: true
 
       t.timestamps
     end
